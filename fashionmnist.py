@@ -37,8 +37,6 @@ y_train = train_df['label'].values
 X_train = X_train.reshape(-1, 28, 28)
 X_test = X_test.reshape(-1, 28, 28)
 
-fig, axes = plt.subplots(12, 12, figsize=(15, 15))
-
 random_eraser = RandomErasing()
 
 fig, axes = plt.subplots(12, 24, figsize=(30, 15))
